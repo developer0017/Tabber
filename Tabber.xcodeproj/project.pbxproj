@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32235431D58276000F38311 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = C32235421D58276000F38311 /* Readme.md */; };
+		C3727F2A1D518CEA0040052F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3727F291D518CEA0040052F /* AppDelegate.swift */; };
+		C3727F2C1D518CEA0040052F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3727F2B1D518CEA0040052F /* ViewController.swift */; };
+		C3727F2F1D518CEA0040052F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3727F2D1D518CEA0040052F /* Main.storyboard */; };
+		C3727F311D518CEA0040052F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3727F301D518CEA0040052F /* Assets.xcassets */; };
+		C3727F341D518CEA0040052F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3727F321D518CEA0040052F /* LaunchScreen.storyboard */; };
+		C3727F3F1D518CEA0040052F /* TabberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3727F3E1D518CEA0040052F /* TabberTests.swift */; };
+		C3727F4A1D518CEA0040052F /* TabberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3727F491D518CEA0040052F /* TabberUITests.swift */; };
+		C3727F581D5191300040052F /* launchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3727F571D5191300040052F /* launchscreen@2x.png */; };
+		C3727F5A1D51A13D0040052F /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = C3727F591D51A13D0040052F /* img.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3727F3B1D518CEA0040052F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3727F1E1D518CEA0040052F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3727F251D518CEA0040052F;
+			remoteInfo = Tabber;
+		};
+		C3727F461D518CEA0040052F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3727F1E1D518CEA0040052F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3727F251D518CEA0040052F;
+			remoteInfo = Tabber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C32235421D58276000F38311 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		C3727F261D518CEA0040052F /* Tabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3727F291D518CEA0040052F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3727F2B1D518CEA0040052F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3727F2E1D518CEA0040052F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3727F301D518CEA0040052F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3727F331D518CEA0040052F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3727F351D518CEA0040052F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3727F3A1D518CEA0040052F /* TabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3727F3E1D518CEA0040052F /* TabberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabberTests.swift; sourceTree = "<group>"; };
+		C3727F401D518CEA0040052F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3727F451D518CEA0040052F /* TabberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3727F491D518CEA0040052F /* TabberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabberUITests.swift; sourceTree = "<group>"; };
+		C3727F4B1D518CEA0040052F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3727F571D5191300040052F /* launchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchscreen@2x.png"; sourceTree = "<group>"; };
+		C3727F591D51A13D0040052F /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3727F231D518CEA0040052F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3727F371D518CEA0040052F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3727F421D518CEA0040052F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3727F1D1D518CEA0040052F = {
+			isa = PBXGroup;
+			children = (
+				C32235421D58276000F38311 /* Readme.md */,
+				C3727F281D518CEA0040052F /* Tabber */,
+				C3727F3D1D518CEA0040052F /* TabberTests */,
+				C3727F481D518CEA0040052F /* TabberUITests */,
+				C3727F271D518CEA0040052F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3727F271D518CEA0040052F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3727F261D518CEA0040052F /* Tabber.app */,
+				C3727F3A1D518CEA0040052F /* TabberTests.xctest */,
+				C3727F451D518CEA0040052F /* TabberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3727F281D518CEA0040052F /* Tabber */ = {
+			isa = PBXGroup;
+			children = (
+				C3727F591D51A13D0040052F /* img.png */,
+				C3727F571D5191300040052F /* launchscreen@2x.png */,
+				C3727F291D518CEA0040052F /* AppDelegate.swift */,
+				C3727F2B1D518CEA0040052F /* ViewController.swift */,
+				C3727F2D1D518CEA0040052F /* Main.storyboard */,
+				C3727F301D518CEA0040052F /* Assets.xcassets */,
+				C3727F321D518CEA0040052F /* LaunchScreen.storyboard */,
+				C3727F351D518CEA0040052F /* Info.plist */,
+			);
+			path = Tabber;
+			sourceTree = "<group>";
+		};
+		C3727F3D1D518CEA0040052F /* TabberTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3727F3E1D518CEA0040052F /* TabberTests.swift */,
+				C3727F401D518CEA0040052F /* Info.plist */,
+			);
+			path = TabberTests;
+			sourceTree = "<group>";
+		};
+		C3727F481D518CEA0040052F /* TabberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3727F491D518CEA0040052F /* TabberUITests.swift */,
+				C3727F4B1D518CEA0040052F /* Info.plist */,
+			);
+			path = TabberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3727F251D518CEA0040052F /* Tabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3727F4E1D518CEA0040052F /* Build configuration list for PBXNativeTarget "Tabber" */;
+			buildPhases = (
+				C3727F221D518CEA0040052F /* Sources */,
+				C3727F231D518CEA0040052F /* Frameworks */,
+				C3727F241D518CEA0040052F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tabber;
+			productName = Tabber;
+			productReference = C3727F261D518CEA0040052F /* Tabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3727F391D518CEA0040052F /* TabberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3727F511D518CEA0040052F /* Build configuration list for PBXNativeTarget "TabberTests" */;
+			buildPhases = (
+				C3727F361D518CEA0040052F /* Sources */,
+				C3727F371D518CEA0040052F /* Frameworks */,
+				C3727F381D518CEA0040052F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3727F3C1D518CEA0040052F /* PBXTargetDependency */,
+			);
+			name = TabberTests;
+			productName = TabberTests;
+			productReference = C3727F3A1D518CEA0040052F /* TabberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3727F441D518CEA0040052F /* TabberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3727F541D518CEA0040052F /* Build configuration list for PBXNativeTarget "TabberUITests" */;
+			buildPhases = (
+				C3727F411D518CEA0040052F /* Sources */,
+				C3727F421D518CEA0040052F /* Frameworks */,
+				C3727F431D518CEA0040052F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3727F471D518CEA0040052F /* PBXTargetDependency */,
+			);
+			name = TabberUITests;
+			productName = TabberUITests;
+			productReference = C3727F451D518CEA0040052F /* TabberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3727F1E1D518CEA0040052F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Administrator;
+				TargetAttributes = {
+					C3727F251D518CEA0040052F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C3727F391D518CEA0040052F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C3727F251D518CEA0040052F;
+					};
+					C3727F441D518CEA0040052F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C3727F251D518CEA0040052F;
+					};
+				};
+			};
+			buildConfigurationList = C3727F211D518CEA0040052F /* Build configuration list for PBXProject "Tabber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3727F1D1D518CEA0040052F;
+			productRefGroup = C3727F271D518CEA0040052F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3727F251D518CEA0040052F /* Tabber */,
+				C3727F391D518CEA0040052F /* TabberTests */,
+				C3727F441D518CEA0040052F /* TabberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3727F241D518CEA0040052F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3727F5A1D51A13D0040052F /* img.png in Resources */,
+				C3727F341D518CEA0040052F /* LaunchScreen.storyboard in Resources */,
+				C3727F311D518CEA0040052F /* Assets.xcassets in Resources */,
+				C3727F2F1D518CEA0040052F /* Main.storyboard in Resources */,
+				C3727F581D5191300040052F /* launchscreen@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3727F381D518CEA0040052F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3727F431D518CEA0040052F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3727F221D518CEA0040052F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3727F2C1D518CEA0040052F /* ViewController.swift in Sources */,
+				C3727F2A1D518CEA0040052F /* AppDelegate.swift in Sources */,
+				C32235431D58276000F38311 /* Readme.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3727F361D518CEA0040052F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3727F3F1D518CEA0040052F /* TabberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3727F411D518CEA0040052F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3727F4A1D518CEA0040052F /* TabberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3727F3C1D518CEA0040052F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3727F251D518CEA0040052F /* Tabber */;
+			targetProxy = C3727F3B1D518CEA0040052F /* PBXContainerItemProxy */;
+		};
+		C3727F471D518CEA0040052F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3727F251D518CEA0040052F /* Tabber */;
+			targetProxy = C3727F461D518CEA0040052F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3727F2D1D518CEA0040052F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3727F2E1D518CEA0040052F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3727F321D518CEA0040052F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3727F331D518CEA0040052F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3727F4C1D518CEA0040052F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3727F4D1D518CEA0040052F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3727F4F1D518CEA0040052F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tabber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.Tabber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3727F501D518CEA0040052F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tabber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.Tabber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3727F521D518CEA0040052F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TabberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.TabberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabber.app/Tabber";
+			};
+			name = Debug;
+		};
+		C3727F531D518CEA0040052F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TabberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.TabberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabber.app/Tabber";
+			};
+			name = Release;
+		};
+		C3727F551D518CEA0040052F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.TabberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tabber;
+			};
+			name = Debug;
+		};
+		C3727F561D518CEA0040052F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.TabberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tabber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3727F211D518CEA0040052F /* Build configuration list for PBXProject "Tabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3727F4C1D518CEA0040052F /* Debug */,
+				C3727F4D1D518CEA0040052F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3727F4E1D518CEA0040052F /* Build configuration list for PBXNativeTarget "Tabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3727F4F1D518CEA0040052F /* Debug */,
+				C3727F501D518CEA0040052F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3727F511D518CEA0040052F /* Build configuration list for PBXNativeTarget "TabberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3727F521D518CEA0040052F /* Debug */,
+				C3727F531D518CEA0040052F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3727F541D518CEA0040052F /* Build configuration list for PBXNativeTarget "TabberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3727F551D518CEA0040052F /* Debug */,
+				C3727F561D518CEA0040052F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3727F1E1D518CEA0040052F /* Project object */;
+}
